@@ -1,0 +1,140 @@
+#tip-calculator {
+  width: 80%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px;
+  /* S */
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+#right-col {
+  background-color: darkcyan;
+  border-radius: 15px;
+}
+
+#right-card {
+  background-color: darkcyan;
+  border: none;
+  padding: 30px;
+}
+
+#left-card {
+  background-color: white;
+  border: none;
+  padding: 20px;
+}
+
+#reset {
+  background-color: aquamarine;
+  border: none;
+  color: darkcyan;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+/* #reset:hover {
+  background-color: darkcyan;
+  color: white;
+} */
+
+.value {
+  text-align: right;
+  font-size: 25px;
+  color: aqua;
+}
+
+.label {
+  text-align: left;
+  font-size: 18px;
+  color: white;
+}
+
+small {
+  margin-top: -30px;
+}
+
+/* .btn {
+  background-color: darkcyan;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 4px;
+  cursor: pointer;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+} */
+
+#buttons-div {
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#buttons-div button {
+  background-color: darkcyan;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  width: 93px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+#buttons-div button:hover {
+  background-color: aqua;
+  color: darkcyan;
+}
+
+#letf-card .left-label {
+  font-size: bolder;
+}
+
+#bill {
+  text-align: right;
+  font-weight: bolder;
+  color: darkcyan;
+}
+
+#people {
+  text-align: right;
+  font-weight: bolder;
+  color: darkcyan;
+  border-color: aqua;
+}
+
+#err {
+  color: red;
+  font-size: 12px;
+  float: right;
+  display: none;
+}
+
+.attribution {
+  text-align: center;
+}
